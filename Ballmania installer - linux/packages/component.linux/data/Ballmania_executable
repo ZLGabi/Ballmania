@@ -1,0 +1,6 @@
+#!/bin/sh
+ DIR=$(dirname "${BASH_SOURCE[0]}")
+ export LD_LIBRARY_PATH=$DIR/libs
+ export QT_QPA_PLATFORM_PLUGIN_PATH=$DIR/platforms
+ cd $DIR
+ ./Ballmania

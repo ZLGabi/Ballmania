@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+    <Name>Ballmania</Name>
+    <Version>1.0.0</Version>
+    <Title>Ballmania</Title>
+    <InstallerWindowIcon>Ballmania.png</InstallerWindowIcon>
+    <StartMenuDir>Ballmania</StartMenuDir>
+    <MaintenanceToolName>Uninstall</MaintenanceToolName>
+    <ControlScript>controlScript.qs</ControlScript>
+    <TargetDir>@ApplicationsDir@/Ballmania</TargetDir>
+</Installer>
